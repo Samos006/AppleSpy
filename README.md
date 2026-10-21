@@ -1,12 +1,12 @@
-# AppleSpy 🍏
+# AppleSpy 
 
 **AppleSpy** — Telegram-бот и мини-приложение для отслеживания цен и наличия товаров в [Золотом Яблоке](https://goldapple.ru/).
 
 Проект помогает следить за изменениями стоимости товаров, сохранять историю цен и получать уведомления о важных изменениях.
 
 **Ссылки:**
-- 🤖 Telegram-бот: [@AppleSpyBot](https://t.me/AppleSpyBot)
-- 🌐 Мини-приложение: [applespy.panoff.dev](https://applespy.panoff.dev)
+-  Telegram-бот: [@AppleSpyBot](https://t.me/AppleSpyBot)
+-  Мини-приложение: [applespy.panoff.dev](https://applespy.panoff.dev)
 
 ## Возможности
 
