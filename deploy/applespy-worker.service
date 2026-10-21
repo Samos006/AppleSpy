@@ -1,0 +1,17 @@
+[Unit]
+Description=AppleSpy price checker (опрос ЗЯ и уведомления)
+After=network.target postgresql.service
+
+[Service]
+User=admin
+WorkingDirectory=/home/admin/applespy
+ExecStart=/home/admin/applespy/venv/bin/python -m app.worker
+MemoryMax=800M
+MemoryHigh=650M
+Restart=on-failure
+RestartSec=15
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

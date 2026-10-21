@@ -1,0 +1,15 @@
+[Unit]
+Description=AppleSpy Telegram bot (aiogram)
+After=network.target postgresql.service applespy-web.service
+
+[Service]
+User=admin
+WorkingDirectory=/home/admin/applespy
+ExecStart=/home/admin/applespy/venv/bin/python -m app.bot.main
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

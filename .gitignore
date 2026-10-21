@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+.pytest_cache/
+.ruff_cache/
+*.log
+.playwright/
+ga_cookies.json
+probe_dump.json
+api_calls.json
